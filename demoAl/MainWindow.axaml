@@ -1,0 +1,188 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="demoAl.MainWindow"
+        x:CompileBindings="False"
+        Title="demoAl">
+	<DockPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Spacing="5"
+			HorizontalAlignment="Center"
+			Orientation="Horizontal" 
+			Height="70">
+			<TextBox 
+				x:Name="SearchBox"
+				Height="30"
+				Width="200">
+			</TextBox>
+			<StackPanel>
+				<TextBlock
+					HorizontalAlignment="Center"
+					Text="Название">
+				</TextBlock>
+			<ComboBox
+				VerticalAlignment="Center"
+				Width="100"
+				x:Name="titleComboBox">
+				<ComboBoxItem>
+					без сорт
+				</ComboBoxItem>
+				<ComboBoxItem>
+					убывю
+				</ComboBoxItem>
+				<ComboBoxItem>
+					возраст
+				</ComboBoxItem>
+			</ComboBox>
+			</StackPanel>
+			<StackPanel>
+				<TextBlock
+					HorizontalAlignment="Center"
+					Text="Скидка">
+				</TextBlock>
+			<ComboBox
+				VerticalAlignment="Center"
+				Width="100"
+				x:Name="discountComboBox">
+				<ComboBoxItem>
+					без сорт
+				</ComboBoxItem>
+				<ComboBoxItem>
+					убывю
+				</ComboBoxItem>
+				<ComboBoxItem>
+					возраст
+				</ComboBoxItem>
+			</ComboBox>
+			</StackPanel>
+			<StackPanel>
+				<TextBlock
+					HorizontalAlignment="Center"
+					Text="Приоритет">
+				</TextBlock>
+			<ComboBox
+				VerticalAlignment="Center"
+				Width="100"
+				x:Name="priorityComboBox">
+				<ComboBoxItem>
+					без сорт
+				</ComboBoxItem>
+				<ComboBoxItem>
+					убывю
+				</ComboBoxItem>
+				<ComboBoxItem>
+					возраст
+				</ComboBoxItem>
+			</ComboBox>
+			</StackPanel>
+			
+			<TextBlock></TextBlock>
+		</StackPanel>
+		<ListBox x:Name="AgentBox">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border
+						BorderBrush="Gray"
+						BorderThickness="1"
+						Padding="5">
+						<StackPanel HorizontalAlignment="Center">
+							<StackPanel>
+							<Image
+                Source="{Binding LogoAgent}"
+								Width="100"
+								Height="100">
+								
+							</Image>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Название: ">
+								</TextBlock>
+							<TextBlock
+                Text ="{Binding Title}"
+								TextWrapping="Wrap"
+								TextAlignment="Center"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Номер телефона: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding Phone}"
+								TextAlignment="Center">
+							</TextBlock>
+								</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Почта: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding Email}"
+								TextAlignment="Center">
+
+							</TextBlock>
+								</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Тип агента: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding AgentType}"
+								TextAlignment="Center">
+
+							</TextBlock>
+								</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Приоритет: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding Priority}"
+								TextAlignment="Center">
+
+							</TextBlock>
+								</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Продажи: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding Sale}"
+								TextAlignment="Center">
+
+							</TextBlock>
+						</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Скидка: ">
+								</TextBlock>
+							<TextBlock
+								Text ="{Binding Discount}"
+								TextAlignment="Center">
+
+							</TextBlock>
+								</StackPanel>
+							
+							
+						</StackPanel>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+			
+		</ListBox>
+		
+	</DockPanel>
+</Window>
