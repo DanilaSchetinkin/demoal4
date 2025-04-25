@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = demoAl
-build_property.ProjectDir = C:\Users\class_student\source\repos\demoal4-main\demoAl\
+build_property.ProjectDir = C:\Users\class_student\source\repos\demoal4\demoAl\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/class_student/source/repos/demoal4-main/demoAl/App.axaml]
+[C:/Users/class_student/source/repos/demoal4/demoAl/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/class_student/source/repos/demoal4-main/demoAl/MainWindow.axaml]
+[C:/Users/class_student/source/repos/demoal4/demoAl/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

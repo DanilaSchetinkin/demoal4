@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oXhxLFrBNCGKWAMytJdM25q0EJw+VgmJXr2SpgjAteZaQiI5GrS5KBX5NwIgE7FPsOcONr8lYgV9q8AvVX4CAA==",
+  "dgSpecHash": "P+VxQt5GCmBEwnTO23X7NmVNDFtZ+fSxaoPDFMDHdjqMfWT7y1wbGy7OF10YLxlIX0E94Ky7u1OzIZ4KDtrL6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\class_student\\source\\repos\\demoal4-main\\demoAl\\demoAl.csproj",
+  "projectFilePath": "C:\\Users\\class_student\\source\\repos\\demoal4\\demoAl\\demoAl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\class_student\\.nuget\\packages\\avalonia\\11.1.0\\avalonia.11.1.0.nupkg.sha512",
     "C:\\Users\\class_student\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

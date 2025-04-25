@@ -3534,11 +3534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\class_student\\source\\repos\\demoal4-main\\demoAl\\demoAl.csproj",
+      "projectUniqueName": "C:\\Users\\class_student\\source\\repos\\demoal4\\demoAl\\demoAl.csproj",
       "projectName": "demoAl",
-      "projectPath": "C:\\Users\\class_student\\source\\repos\\demoal4-main\\demoAl\\demoAl.csproj",
+      "projectPath": "C:\\Users\\class_student\\source\\repos\\demoal4\\demoAl\\demoAl.csproj",
       "packagesPath": "C:\\Users\\class_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\class_student\\source\\repos\\demoal4-main\\demoAl\\obj\\",
+      "outputPath": "C:\\Users\\class_student\\source\\repos\\demoal4\\demoAl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\class_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
